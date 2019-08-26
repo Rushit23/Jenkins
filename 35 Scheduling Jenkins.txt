@@ -1,0 +1,23 @@
+Scheduling Jenkins Build On Needs
+
+
+Minutes In One Hour (0-59)
+
+
+Hours In The Day (0-23)
+
+DAYMONTH Day In Month (1-31)
+
+MonTh Of The Year (1-12)
+
+DAYWEEK Day Of The Week (0-7)  0 and 7 Are sunday
+
+
+If You Want To Schedule Your Build every 5 Minutes  */5* * * *
+
+If You Want To Schedule Your Build everyday at 8h00   H 8 * * *
+
+
+Configure :
+
+Build Triggers 

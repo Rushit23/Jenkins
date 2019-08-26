@@ -1,0 +1,91 @@
+
+
+
+
+
+
+Jenkins is a Continuous integration server
+
+Store it in C drive
+
+
+
+
+Jenkins Project SetUp
+-----------------------
+
+Jenkins Download Google
+
+Download .War  Version
+
+
+Jenkins Commands
+
+From The C Drive From The Command Prompt 
+
+java -jar jenkins.war -httpPort=8080
+
+java -jar jenkins.war -httpPort=8061
+
+
+Into Browser : localhost:8080
+
+--------------------------------------------
+
+Jenkins URL
+
+http://localhost:8080/
+
+
+----------------------------------------------
+
+Manage Jenkins: > ConfigurenManagement > JDK Installation 
+
+Global Tool Configuration
+Uncheck The CheckBox And Provide the path
+Provide Jdk Name And Java Path
+
+
+jdk1.8.0_144
+
+C:\Program Files\Java\jdk1.8.0_144
+
+
+
+
+Maven Configuration :
+
+-------------------------------------------------
+
+
+New Item: Framework
+
+Freestyle Project
+
+Build:  Add Build STep
+
+Invoke Tope level Maven Targets
+
+
+
+
+
+From POM.XML
+
+
+For Regression
+
+Goals:
+
+test -PRegressionTesting
+
+Advanced :
+
+C:\Apps\mavesel\pom.xml
+
+Save 
+
+
+<Id>RegressionTesting<Id>
+
+

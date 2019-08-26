@@ -1,0 +1,14 @@
+
+
+
+Jenkins Continuous Integration Tool
+
+
+You Can Schedule Test Case Execution
+
+We Need To Ptovide The Path of Our Framework
+
+Test Cases Will  Be Stored On Central Repository
+
+Reports Are Generated Automatically  and They are Send Within The Mail
+
